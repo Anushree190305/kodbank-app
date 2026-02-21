@@ -1,0 +1,10 @@
+{
+  "name": "kodbank-app",
+  "version": "1.0.0",
+  "description": "Full-stack banking web application",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev"
+  }
+}
